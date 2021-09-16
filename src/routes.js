@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
   })
 });
 
-router.get('/vehicle', getPlaca.getVehicleInfo)
+router.get('/vehicle/:plate', getPlaca.getVehicleInfo)
 
 
 module.exports = router;
